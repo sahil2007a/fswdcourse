@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Full Stack Development Course</title>
+  <style>body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 85%;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #0d47a1;
+        }
+
+        header h1 {
+            color: white;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        button {
+            background-color: #0d47a1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #08306b;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            border-radius: 6px;
+        }
+
+        form {
+            margin-top: 15px;
+        }
+
+        input {
+            width: 60%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        a {
+            text-decoration: none;
+        }
+</style> 
+     
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Full Stack Development Course</h1>
+        <p>
+            The Full Stack Development (FSD) course is designed to help learners become 
+            industry-ready developers by mastering both front-end and back-end technologies.
+            This course focuses on building complete, scalable, and real-world web applications.
+        </p>
+    </header>
+
+    <hr>
+
+    <section>
+        <h2>Course Overview</h2>
+        <p>
+            In this course, students begin with front-end development using 
+            <strong>HTML, CSS, and JavaScript</strong> to create responsive and interactive web pages.
+            After mastering the basics, learners move on to modern frameworks such as 
+            <strong>React, Angular</strong> to build dynamic user interfaces.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Backend Description -->
+    <section>
+        <h2>Backend & Database Technologies</h2>
+        <p>
+            The back-end module focuses on server-side programming using technologies like 
+            <strong>Node.js</strong>. Students learn how to design APIs, 
+            handle authentication, and connect applications with databases such as 
+            <strong>MySQL, MongoDB, Firebase</strong>.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- External Link -->
+    <section>
+        <h2>Explore More</h2>
+        <p>
+            Click the button below to explore more resources related to web development:
+        </p>
+        <a href="https://www.google.com" target="_blank">
+            <button>Click Here</button>
+        </a>
+    </section>
+
+    <hr>
+
+    <!-- Image Section -->
+    <section>
+        <h2>Course Logo</h2>
+        <img src="fsdimage.png"  width="300">
+    </section>
+
+    <hr>
+
+    <!-- Registration Form -->
+    <section style="text-align: center;">
+        <h2>Register for Full Stack Development Course</h2>
+
+        <form>
+            <div>
+                <label>Full Name:</label><br>
+                <input type="text" placeholder="Enter your full name">
+            </div>
+            <br>
+
+            <div>
+                <label>Email Address:</label><br>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <br>
+
+            <div>
+                <label>Interested Stack:</label><br>
+                <input type="text" placeholder="Frontend / Backend / Full Stack">
+            </div>
+            <br>
+
+            <button type="submit">Register Now</button>
+        </form>
+
+        <br>
+        <p>
+            This course is ideal for students, fresh graduates, and working professionals
+            who want to enhance their technical skills and build a strong career in software development.
+        </p>
+        <p>
+            By the end of the course, learners will be capable of developing complete web applications,
+            deploying them on servers, and maintaining them efficiently.
+        </p>
+    </section>
+</body>
+</html>
